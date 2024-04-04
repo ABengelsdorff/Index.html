@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(248, 223, 241)
+}
+h1 {
+    background-color: rgb(233, 204, 241);
+}
+.title{font-size: 2em;
+    color: rgb(53, 16, 121);
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0.2em 1em;
+    border-radius: 5%;
+}
+
+.encabezado:hover{
+    font-size: 1.5em; background-color:white;
+}
+
+.title:hover{
+    background-color: white;
+}
+
+.boton:hover{
+    background-color: rgb(231, 160, 245);
+}
+
+.logo{
+    width: 400px;
+}
+#titulo{
+    border: 2px solid black; width: 65vw;
+    margin:auto; padding: 1em;
+    border-radius: 10%;
+}
+
+#titulo :hover{
+    background-color: white;
+}
+
+.formulario{
+    font-size: 2em;
+}
+
+#principal{font-size: 40px;
+}

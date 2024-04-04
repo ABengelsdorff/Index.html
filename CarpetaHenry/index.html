@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="./styles.css"/>
         <title>Mi pagina web </title>
     </head>
     <body>
 
         <header>
-            <h1>El superalimento que brinda múltiples beneficios para la salud</h1>
-         
-            <span>LA NACION</span>
-            <span>Salud</span>
-            <span>Nutrición</span>
+           <div id="titulo">
+            <h1 style="color: darkred;"; id="principal">El superalimento que brinda múltiples beneficios para la salud</h1>
+            </div>
+
+            <div class="encabezado">
+            <span style="color: blue;">LA NACIÓN</span> 
+            <span style="color: blue;">..............</span>
+            <span style="color: blue;">SALUD</span>
+            <span style="color: blue;">..............</span>
+            <span style="color: blue;">NUTRICIÓN</span>
+            </div>
+           
+
         </header>
         
 
          <main>
-            <img src="./chocolatejpg.jpg"/>
+            <img src="./chocolatejpg.jpg" class="logo"/>
 
             <section>
                 <article>
-
-            <h2>Fuente de minerales, con poder estimulante y antioxidante, 
+            <h2 class="title" style="color: darkred;">Fuente de minerales, con poder estimulante y antioxidante, 
                 ayuda a producir serotonina, la hormona de la felicidad</h2>
+
             <hr />
-            <h3>De un sabor único y delicioso</h3>
+            <h3 class="title" >De un sabor único y delicioso</h3>
 
                 <div>
-                     <p>el cacao es un superalimento que brinda muchos beneficios para la salud. Proviene de los granos de cacao que son fermentados,
+                     <p> El cacao es un superalimento que brinda muchos beneficios para la salud. Proviene de los granos de cacao que son fermentados,
                          secados, tostados y posteriormente triturados. Luego se prensan y se extrae la manteca de cacao. El resultado de este proceso da una pasta que se seca y se muele, 
                          convirtiéndose en cacao en polv</p>
                      <p>En el siglo XVIII, el naturalista Carolus Linnaeus, basado en las creencias de los mayas y aztecas, denominó al árbol de cacao con el nombre científico de Theobroma cacao, 
@@ -45,10 +54,11 @@
             <hr />
 
                 <article>
-            <h3>Un superalimento</h3>
+            <h3 class="title">Un superalimento</h3>
             <p>Los nutricionistas consideran al cacao en estado puro un “superalimento”,
                 por sus excelentes cualidades.</p>
-                <ul>
+
+                <ul style="color:darkblue">
                     <li>Es un excelente alimento energético por su contenido en teobromina y 
                         gracias a su contenido en flavonoides facilita la 
                         agilidad mental y la concentración.</li>
@@ -68,8 +78,10 @@
             <hr />
 
                  <article>
-                <h3>Cacao y chocolate…. ¿ Es lo mismo?</h3>
-                <img src="cacao.jpg"/>
+
+                <h3 class="title">Cacao y chocolate…. ¿ Es lo mismo?</h3>
+
+                <img src="cacao.jpg" class="logo"/>
                 <p>Muchas veces se usan las palabras cacao y chocolate como 
                     sinónimos pero es importante explicar su diferencia. 
                     “El cacao, como se dijo, es la semilla torrada que se obtiene 
@@ -79,7 +91,7 @@
                       explica Celeste Celano, médica pediatra, 
                     jefa de Pediatría en el 
                     Sanatorio Modelo de Caseros (MN 127.066).</p>
-                <h5> A mayor porcentaje de cacao en un chocolate, menor es 
+                <h5 class="title"> A mayor porcentaje de cacao en un chocolate, menor es 
                     el porcentaje de azúcares y grasas y por ende, 
                     más beneficioso para la salud.</h5>
                     <p>El chocolate negro, amargo, es el que incluye mayor
@@ -95,12 +107,17 @@
 
 
         <footer>
-            <p>
-                Por Angelica Bengelsdorff
-            </p>
-            <h7>¿Quiere recibir más información? deje sus datos en el siguiente link 
-                y nos estaremos contactando con usted para brindarle información exlusiva.</h7>
-           <a href="./contacto.html">Formulario de contacto</a>
+
+             <h3  style="color: darkblue;">Por Angelica Bengelsdorff
+            </h3>
+                
+            <h3>¿Quiere recibir más información? deje sus datos en el siguiente link 
+                y nos estaremos contactando con usted para brindarle información exlusiva.</h3>
+          
+          <div class="formulario">
+              <a href="./contacto.html">Formulario de contacto</a>
+          </div>
+
         </footer>
     </body>
 </html>
