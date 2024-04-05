@@ -1,0 +1,105 @@
+/* Reset general */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Eliminar márgenes y rellenos predeterminados */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+blockquote,
+pre,
+dl,
+figure,
+hr,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos base */
+body {
+    line-height: 1.5;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* Establecer bordes en elementos específicos */
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajustar elementos de formulario */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Restablecer estilos de tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Restablecer estilos de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Eliminar estilos de elementos de formulario */
+button,
+input,
+select,
+textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Restablecer estilos de texto */
+abbr[title] {
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+#micontenedor{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saltar{
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}

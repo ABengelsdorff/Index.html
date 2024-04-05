@@ -1,19 +1,71 @@
 body{
-    background-color:rgb(248, 223, 241)
+    background-image:url("tec13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.movimiento {
+    position: relative; /* Importante para que la animación funcione correctamente */
+    animation: moverIzquierdaAderecha 5s linear infinite; /* Nombre de la animación, duración, repetición */
 }
+
+@keyframes moverIzquierdaAderecha {
+    0% { left: 20%; } /* Posición inicial */
+    100% { left: 60%; } /* Posición final */
+}
+
+
+
 h1 {
-    background-color: rgb(233, 204, 241);
+    background-color: hsl(189, 82%, 85%);
+    transition: 3s;
 }
+
 .title{font-size: 2em;
     color: rgb(53, 16, 121);
     border: 2px solid black;
     width: fit-content;
     padding: 0px 1em 0.2em 1em;
     border-radius: 5%;
+    transition: 0.5s;
+}
+
+
+@keyframes saltar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.columna{
+    columns: 2 8em;
+    float: left;
+    text-align: justify;
+}
+
+.saltar img{
+    width: 200px; 
+    height: 200px;
+}
+     
+
+
+.saltar {
+    animation: saltar 0.5s ease infinite; /* Aplica la animación llamada "saltar" durante 1 segundo, con un timing "ease" y se repite infinitamente */
+}
+
+.cursiva {
+    font: oblique bold 120% cursive;
+}
+
+.estiloitalic {
+    font-family: sans-serif;
+        font-size: 100%;
+        font-style: italic; 
 }
 
 .encabezado:hover{
-    font-size: 1.5em; background-color:white;
+    font-size: 1.5em; background-color:white; transition: 5s;
 }
 
 .title:hover{
@@ -21,25 +73,60 @@ h1 {
 }
 
 .boton:hover{
-    background-color: rgb(231, 160, 245);
+    background-color: rgb(107, 181, 250);
 }
 
+
 .logo{
-    width: 400px;
+    transition: 1s;
+    font-size: 2em;
+    color: rgb(53, 16, 121);
+    width: fit-content;
+    padding: 0px 1em 0.2em 1em;
+    border-radius: 5%;
+    
 }
+
+.logo:hover{
+    background-color: rgb(70, 194, 243);
+}
+       
+
+
 #titulo{
-    border: 2px solid black; width: 65vw;
     margin:auto; padding: 1em;
     border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 #titulo :hover{
     background-color: white;
 }
 
+ #principal{font-size: 40px;
+}
+
 .formulario{
     font-size: 2em;
 }
 
-#principal{font-size: 40px;
+.formulario :hover{
+    color:rgb(4, 18, 218)
 }
+
+
+.campo :focus{
+    background-color: rgb(107, 181, 250);
+}
+
+
+.campo input[type="text"],
+.campo input[type="number"],
+.campo input[type="password"] {
+    border: 1px solid #000000;
+    padding: 5px; /* Agrega un relleno interior para separar el texto del borde */
+}
+
