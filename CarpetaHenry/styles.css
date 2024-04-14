@@ -1,12 +1,9 @@
-body{
-    background-image:url("tec13.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
- }
 
 .movimiento {
     position: relative; /* Importante para que la animación funcione correctamente */
     animation: moverIzquierdaAderecha 5s linear infinite; /* Nombre de la animación, duración, repetición */
+    width: 50%;
+   
 }
 
 @keyframes moverIzquierdaAderecha {
@@ -77,20 +74,6 @@ h1 {
 }
 
 
-.logo{
-    transition: 1s;
-    font-size: 2em;
-    color: rgb(53, 16, 121);
-    width: fit-content;
-    padding: 0px 1em 0.2em 1em;
-    border-radius: 5%;
-    
-}
-
-.logo:hover{
-    background-color: rgb(70, 194, 243);
-}
-       
 
 
 #titulo{
@@ -102,9 +85,6 @@ h1 {
 
 }
 
-#titulo :hover{
-    background-color: white;
-}
 
  #principal{font-size: 40px;
 }
