@@ -1,6 +1,160 @@
+body {
+    border: 2px solid black;
+    width: 1440px;
+}
+
+header {
+    width: 1170px;
+    height: 100px;
+    margin-top: 32px;
+    margin-left: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ #contenedorLogos {
+    width:180px;
+    height:52px;
+    margin-top: 1px;
+    display: flex;
+    justify-content:space-between;
+ }
+
+ nav{
+    width:312px;
+    height:24px;
+    margin-top: 13px;
+ }
+
+ nav ul{
+    display:flex;
+    justify-content: space-between;
+
+ }
+
+ a {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+ }
+
+a:hover{
+    color: #F55253;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+#buscador {
+    width:300px;
+    height:67px;
+    left: 1005px;
+    display: flex;
+    justify-content:space-around;
+ }
+ 
+
+ #cuerpo {
+    display: flex;
+    justify-content: space-around;
+ }
+
+.cuerpo1, .cuerpo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .cuerpo1 {
+        background-color: grey;
+    width: 600px;
+    height: 650px;
+    margin-left: 5;
+    }
+   
+
+ .cuerpo1 label{
+    background-color: aqua;
+    width: 500px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 15px;
+    margin: 15px;
+    margin-left: -75px;
+ }
+
+
+ .cuerpo1 h1 {
+    background-color: #452cd4;
+    width: 578px;
+    height: 230px;
+    line-height: 60px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 1500;
+    color: #F54748;
+    margin: 5px;
+    margin-top: 90px;
+ }
+
+ .cuerpo1 h2 {
+    background-color: chartreuse;
+    width: 578px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 100px;
+ }
+ 
+
+.boton1 {
+    background-color: greenyellow;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 578px;
+    height: 50px;
+    margin: 75px;
+}
+
+
+.boton1:hover{
+    color: #452cd4;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+
+ .cuerpo2{
+    background-color: lightcoral;
+    width: 600px;
+    height: 650px;
+    margin-left: 5px;
+ }
+
+
+
+
+
+
+
+
 
 .movimiento {
-    position: relative; /* Importante para que la animación funcione correctamente */
+    position:relative; /* Importante para que la animación funcione correctamente */
     animation: moverIzquierdaAderecha 5s linear infinite; /* Nombre de la animación, duración, repetición */
     width: 50%;
    
@@ -13,19 +167,19 @@
 
 
 
-h1 {
+/* h1 {
     background-color: hsl(189, 82%, 85%);
     transition: 3s;
-}
+} */
 
-.title{font-size: 2em;
+/* .title{font-size: 2em;
     color: rgb(53, 16, 121);
     border: 2px solid black;
     width: fit-content;
     padding: 0px 1em 0.2em 1em;
     border-radius: 5%;
     transition: 0.5s;
-}
+} */
 
 
 @keyframes saltar {
